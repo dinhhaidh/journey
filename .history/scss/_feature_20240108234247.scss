@@ -1,0 +1,44 @@
+.feature{
+    .card-list{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 2rem;
+        padding-top: 80px;
+    }
+    .card{
+        text-align: center;
+        &-image{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        &-title{
+            font-size: 18px;
+            font-family: 'Helvetica Neue', sans-serif;
+            font-weight: 400;     
+            color: #2b414d;   
+            position: relative;
+            margin: 0 0 40px;                           
+        }
+        &-title::after{
+            content: "";
+            left: 50%;
+            bottom: -20px;
+            height: 2px;
+            width: 22px;
+            margin: 0 0 0 -11px;
+            background: #ccd0d2;
+            position: absolute;
+        }
+        & card-title::after :hover{
+            background-color: red;
+        }
+        &-desc{
+            font-size: 14px;
+            font-weight: 400;
+            font-family: 'Helvetica Neue', sans-serif;
+            color: #777c7f;
+        }
+    }
+}

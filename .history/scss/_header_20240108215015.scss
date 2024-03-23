@@ -1,0 +1,35 @@
+.header{
+    &-fluid{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    &-icon .fa-facebook{
+        width: 2rem;
+        height: 2rem;
+        background-color: #ccd0d2;
+        border-radius: 50%;  
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+    }
+    &-icon .fa-t{
+        width: 2rem;
+        height: 2rem;
+        background-color: #ccd0d2;
+        border-radius: 50%;  
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+    }
+    &-icon img:hover{
+        background: red;
+        color: white;
+    }
+}

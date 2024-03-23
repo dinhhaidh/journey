@@ -1,0 +1,20 @@
+.footer{
+    padding-top: 100px;
+    &-centered{
+        text-align: center;
+    }
+    &-from-control{
+        padding: 13px 30px 13px 13px;
+        border: 2px solid #ececec;
+        background: #f8f8f8;
+        border-radius: 6px;
+    }
+    &-from-control::placeholder{
+        color:#ccd0d2;
+    }
+    &-more{
+        padding: 13px;
+        background: #e2574c;
+        border-radius: 6px;
+    }
+}

@@ -1,0 +1,14 @@
+.footer{
+    padding-top: 100px;
+    &-centered{
+        text-align: center;
+    }
+    &-from-control{
+        padding: 13px 30px 13px 13px;
+        border: 1px solid #ececec;
+        background: #f8f8f8;
+    }
+    &-from-control::placeholder{
+        color:#ccd0d2;
+    }
+}

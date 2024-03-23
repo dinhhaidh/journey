@@ -1,0 +1,9 @@
+.header{
+    &-icon{
+        display: flex;
+    }
+    &-icon img:hover{
+        background: red;
+        color: white;
+    }
+}

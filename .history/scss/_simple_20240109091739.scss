@@ -1,0 +1,13 @@
+.simple {
+    
+    padding: 80px 0 80px;
+    &-main {}
+    & img {
+        float: left;
+        margin: 0 60px 0px 0px;
+    }
+
+    &-text{
+        margin-bottom: 20px;
+    }
+}

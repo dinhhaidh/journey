@@ -1,0 +1,66 @@
+.header{
+    padding: 50px 0 50px;
+    &-fluid{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    &-logo{
+        width: ;
+    }
+    &-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    &-icon .fa-facebook{
+        width: 2rem;
+        height: 2rem;
+        background-color: #ccd0d2;
+        border-radius: 50%;  
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        color: #fff;
+    }
+    &-icon .fa-facebook:hover{
+        background: #355089;
+    }
+    &-icon .fa-twitter{
+        width: 2rem;
+        height: 2rem;
+        background-color: #ccd0d2;
+        border-radius: 50%;  
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        color: #fff;
+    }
+    &-icon .fa-twitter:hover{
+        background: #55acee;
+    }
+    &-icon .fa-google{
+        width: 2rem;
+        height: 2rem;
+        background-color: #ccd0d2;
+        color: #fff;
+        border-radius: 50%;  
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+    }
+    &-icon .fa-google:hover{
+        background: #c64333;
+    }
+    @media screen and (max-width: 768px) {
+        &-icon{
+            display: none;
+        }
+        &-logo{
+            width: clamp();
+        }
+    }
+    
+}

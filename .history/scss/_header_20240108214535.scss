@@ -1,0 +1,17 @@
+.header{
+    &-fluid{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: ;
+    }
+    &-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &-icon img:hover{
+        background: red;
+        color: white;
+    }
+}

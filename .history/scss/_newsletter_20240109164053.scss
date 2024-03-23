@@ -1,0 +1,41 @@
+.newsletter{
+    padding: 100px 0 100px;
+
+    &-centered{
+        text-align: center;
+    }
+    &-from-control{
+        padding: 13px 150px 13px 13px;
+        border: 2px solid #ececec;
+        background: #f8f8f8;
+        border-radius: 6px;
+    }
+    &-from-control::placeholder{
+        color:#ccd0d2;
+    }
+    &-more{
+        padding: 13px;
+        background: #e2574c;
+        border-radius: 6px;
+        color: #fff;
+        font-size: clamp(16px, 1.8vw, 18px);
+    }
+    &-brick{
+        margin-bottom: 50px;
+        // height: 2px;
+        // width: 50px;
+        // background: #ccd0d2;
+        // text-align: center;
+        position: relative;
+    }
+    &-brick::after{
+        content: "";
+        left: 50%;
+        bottom: -20px;
+        height: 2px;
+        width: 22px;
+        margin: 0 0 0 -11px;
+        background: #ccd0d2;
+        position: absolute;
+    }
+}

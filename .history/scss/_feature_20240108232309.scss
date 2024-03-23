@@ -1,0 +1,19 @@
+.feature{
+    .card-list{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 2rem;
+    }
+    .card{
+        text-align: center;
+        &-image{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &-title{
+            font-size: 18px;
+            
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.wrapper{
+    margin: 0 auto;
+}
+.container{
+    max-width: 943px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+main{
+    overflow: hidden;
+}
+.text{
+    margin-bottom: 25px;
+}
+.title{
+    font-size: clamp(25px, 3.8vw, 38px);
+    font-weight: 500;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #2b414d;
+}

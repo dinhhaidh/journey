@@ -1,0 +1,19 @@
+.slider{
+    .swiper {
+        height: 360px;
+    }
+    span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+        width: 12px;
+        height: 12px;
+        color: #fff !important;
+    }
+    span.swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+    }
+    .sw span.swiper-pagination-bullet.swiper-pagination-bullet-active .botom{
+        color:  red !important;
+        width: 12px;
+        height: 12px;
+    }
+}

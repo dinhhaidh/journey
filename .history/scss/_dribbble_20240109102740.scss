@@ -1,0 +1,17 @@
+.dribbble{
+    .swiper-wrapper{
+        max-width: 943px;
+        height: 300px;
+    }
+    .swiper-twitter{
+        font-size: 40px;
+        color:#26a6d1;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        &-PixelBuddha{
+            color: #e2574c;
+            font-weight: 300;
+        }
+    }
+}
